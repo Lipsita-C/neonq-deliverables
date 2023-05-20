@@ -6,6 +6,8 @@
 
 Machine learning is a branch of computer science and artificial intelligence that deals with data, various machine learning models and algorithms that imitate how humans learn. It is way to make our model learn to observe patterns on it’s own with some given set of input and output. 
 
+![Categories](./Supervised_Unsupervised.png)
+
 
 Machine learning can be divided into two categories:
 1.	Supervised machine learning and
