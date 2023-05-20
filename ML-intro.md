@@ -1,31 +1,48 @@
-# ML Introduction
-                                     Machine Learning
+# Machine Learning  Introduction
+
+
+
+![MachineLearning](https://media.istockphoto.com/id/1273072739/vector/machine-learning-banner-logo-for-technology-ai-big-data-algorithm-neural-network-deep.jpg?s=612x612&w=0&k=20&c=FSMy87-yIhqJjA86KFBFefZjJFmMQMuDYq8rQ2EK7bw=)
 
 Machine learning is a branch of computer science and artificial intelligence that deals with data, various machine learning models and algorithms that imitate how humans learn. It is way to make our model learn to observe patterns on it’s own with some given set of input and output. 
+
+
 Machine learning can be divided into two categories:
 1.	Supervised machine learning and
 2.	Unsupervised machine learning
+
+
 Lets talk about supervised machine leaning and then how it is used to train a model.
 Supervised machine learning:  in this type of ML we provide the model or train the model with some input(X) as well as the known output (y). Then we will train our model on the basis of these inputs and outputs and provide them with new set of training data and try to get the predicted output. 
+
+
 To understand how this entire system works. We need to dive deeper into the important components of machine learning. For affluence let’s divide the components into parts and go through them one by one:
 1.	Data sets
 2.	Learning algorithm (linear regression, logistic regression etc)
 3.	To use ways to get more accurate predicted outputs that match without original output. 
 4.	To add all the above steps and get our model ready.
-Data sets
+
+
+## Data sets
 This is a collection of various types of data stored in digital format. This is the key component of machine learning project which acts as an example to teach machine learning algorithms how to make predictions. So before jumping into learning algorithms we must always collect the data related to the project we are working on.
-Learning algorithms
+
+
+## Learning algorithms
 It is a method by which the AI system conducts its task, generally predicting output values from given input data. There are different algorithms we use for different types of problems (regression and classification). We just need to know how our output types are and with that we can make sure which of the algorithms will do well.
 Now after selecting an algorithm our next priority should be how to make it predict more accurate and faster output. 
 This is where cost function comes into play. We don’t want our predictions to be very much different from our desired output. And that is why we calculate the cost function which tells the difference between our actual output and predicted output. We need to make sure that the cost function is always less because a good model should not have much difference between its actual output and predicted output.
 The cost function use mean square error to calculate the difference between the original output and the predicted output. It is the squared difference between the true value and the prediction. 
 There are two parameters that control the value of cost function: w and b
 We need to find the specific value for w and b so that our regression line fits perfect to all the data. And to minimize these parameters J(w,b) we’ll Gradient Descent. 
+
 What Gradient Descent does it will start with some parameter w and b and keep changing it till the updated values don’t change anymore or it reaches the local minima(a point where function value is smaller than at nearby points).
-There many types of gradient descent for various problems: 
+
+``` There many types of gradient descent for various problems: 
 1.	Batch gradient descent: all training data is taken into consideration 
 2.	Stochastic gradient descent: single random training data is taken into consideration along with its derivative. 
 3.	Mini-batch gradient descent: a fixed batch of fixed number of training data which is less than the actual data set is taken into consideration. 
+```
+
 Now after discussing the key points of optimizing a model we need to trace our steps back and get to train our model. 
 As we might have huge data sets. We will use one half to train our model and the other half to test the model. 
 For selecting the algorithms we can take two approach based on our output (for most of the time) :-
